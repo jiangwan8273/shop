@@ -1,0 +1,16 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+input{
+  outline:none;
+}
+/* 解决次级选择器BUG问题 */
+.el-cascader-panel {
+  height: 300px;
+}
+.ql-editor{
+  min-height: 300px;
+}
